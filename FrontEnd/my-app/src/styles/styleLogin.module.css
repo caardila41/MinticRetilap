@@ -1,0 +1,206 @@
+.cuerpo {
+  background-color: #c0c0c8;
+  display: flex;
+}
+
+.containerTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxLeft {
+  position: absolute;
+  margin-top: 3.37vh;
+  margin-bottom: 3.37vh;
+  margin-left: 2.01vw;
+  margin-right: 42.41%;
+  width: 55.57vw;
+  height: 81.25vh;
+}
+.boxLogin {
+  position: absolute;
+  margin-top: 9.37vh;
+  margin-bottom: 9.37vh;
+  margin-right: 2vw;
+  margin-left: 65.47vw;
+  width: 32.51vw;
+  height: 81.25vh;
+  background: #f2f2f4;
+  border: 1px solid #33333350;
+  border-radius: 20px;
+}
+.brand {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.32vw;
+  line-height: 75px;
+  color: #000000;
+  margin-top: 14.86vh;
+  margin-left: 38.96%;
+}
+.positionMail {
+  margin-top: 8.91vh;
+  margin-bottom: 0;
+  margin-left: 8.19%;
+  margin-right: 8.19%;
+}
+.positionPass {
+  margin-top: 6.96vh;
+  margin-left: 8.19%;
+  margin-right: 8.19%;
+}
+#emailSesion {
+  padding-left: 6%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vh;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 27.18vw;
+  height: 7.22vh;
+  background: #3b3a4a;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+#emailSesion::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.85vh;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #c0c0c8;
+}
+#passwordSesion {
+  padding-left: 6%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vh;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 27.18vw;
+  height: 7.22vh;
+  background: #3b3a4a;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+#passwordSesion::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.85vh;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #c0c0c8;
+}
+.botonEnviar {
+  background: linear-gradient(180deg, #1eb9d5 100%, #46c1d8 100%);
+  border-radius: 6px;
+  width: 27.18vw;
+  height: 7.22vh;
+  margin-top: 6.66vh;
+  margin-bottom: 14.86vh;
+  margin-left: 8.19%;
+  margin-right: 8.19%;
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #33333350;
+}
+.botonEnviar:hover {
+  background: linear-gradient(180deg, #178ba0 0%, #24636e 100%);
+}
+
+.botonMedicion {
+  background: var(--secondary-color);
+  border-radius: 6px;
+  width: 27.18vw;
+  height: 5.22vh;
+  font-weight: 700;
+  margin: 2.5% 0 2.5% 15%;
+  font-size: 2vh;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #33333350;
+}
+
+.botonZonas {
+  background: var(--secondary-color);
+  border-radius: 6px;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #33333350;
+  margin: 1rem 36rem;
+}
+
+.nameZone {
+  background: var(--primary-color);
+  text-align: center;
+  border-radius: 6px;
+  width: 27.18vw;
+  height: 5.22vh;
+  margin: 2.5% 0 2.5% 15%;
+  font-weight: 700;
+  font-size: 2vh;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #33333350;
+}
+@media screen and (max-width: 700px) {
+  .boxLeft {
+    display: none;
+  }
+  .boxLogin {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 75vh;
+  }
+  .brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.32vh;
+    line-height: 75px;
+    color: #000000;
+    margin-top: 14%;
+    margin-left: 33.96%;
+  }
+  .positionMail {
+    margin-top: 8.91vh;
+    margin-bottom: 0;
+    margin-left: 8.19%;
+    margin-right: 8.19%;
+  }
+  .positionPass {
+    margin-top: 6.96vh;
+    margin-left: 8.19%;
+    margin-right: 8.19%;
+  }
+  #emailSesion {
+    width: 73.18vw;
+    height: 7.22vh;
+  }
+  #passwordSesion {
+    width: 73.18vw;
+    height: 7.22vh;
+  }
+  .botonEnviar {
+    width: 73.18vw;
+    height: 7.22vh;
+    margin-bottom: 14vh;
+  }
+  .botonEnviar:hover {
+    background: linear-gradient(180deg, #178ba0 0%, #24636e 100%);
+  }
+}

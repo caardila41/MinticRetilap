@@ -1,0 +1,7 @@
+Cada vez que crees una pantalla y su carpeta usa minúsculas
+
+Se vas a crear un componente, archivo .jsx que empieza con una letra mayúscula
+
+Usar la carpeta componentes cuando se vaya a reutilizar en varias pantallas
+
+Porfavor documentar su código para saber que es cada cosa.
